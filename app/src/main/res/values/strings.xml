@@ -9,4 +9,6 @@
     <string name="inicia_sesion">Inicia sesión para empezar</string>
     <string name="recordarme">Recordarme</string>
     <string name="completar_login">Debe completar el nombre de usuario y la contraseña.</string>
+    <string name="parqueos">Parqueos</string>
+    <string name="mi_cuenta">Mi cuenta</string>
 </resources>

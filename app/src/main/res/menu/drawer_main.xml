@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/opciones"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_parqueos"
+            android:icon="@drawable/logo"
+            android:title="@string/parqueos" />
+
+        <item
+            android:id="@+id/nav_micuenta"
+            android:icon="@drawable/account"
+            android:title="@string/mi_cuenta" />
+
+    </group>
+</menu>

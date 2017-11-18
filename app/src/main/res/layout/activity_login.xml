@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/control_margin"
         android:gravity="center"
         android:text="@string/bienvenido"
         android:textColor="@color/colorAccent"
