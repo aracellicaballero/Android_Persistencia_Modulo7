@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Registrar parqueo"
+        android:textSize="22dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_placa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. de matrícula"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_idcliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID del cliente"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            style="?borderlessButtonStyle"
+            android:id="@+id/btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Cancelar"/>
+
+        <Button
+            style="?borderlessButtonStyle"
+            android:id="@+id/btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:layout_alignBaseline="@+id/btn_iniciar_sesion"
+            android:layout_alignBottom="@+id/btn_iniciar_sesion"
+            android:layout_toStartOf="@+id/btn_iniciar_sesion" />
+
+    </LinearLayout>
+
+</LinearLayout>
